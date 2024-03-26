@@ -11,7 +11,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
  
 function NavList() {
@@ -66,11 +66,11 @@ const NavBar = () => {
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
-          href="#"
           variant="h6"
           className="mr-4 text-3xl cursor-pointer py-1.5 text-[#131313] font-bold"
         >
-          Book Cave
+          <Link to={'/'}>Book Cave</Link>
+          
         </Typography>
         <div className="hidden lg:block">
           <NavList />
