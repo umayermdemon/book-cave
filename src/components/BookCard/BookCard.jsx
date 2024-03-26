@@ -9,12 +9,9 @@ import { IoMdStarOutline } from "react-icons/io";
 
 import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
-import CustomSpinner from "../../CustomSpinner/CustomSpinner";
 
-const BookCard = ({card,loader}) => {
-  if(loader){
-    return <CustomSpinner/>
-  }
+const BookCard = ({card}) => {
+  
   const {id,bookName, author, image, category, rating, tags}=card || {};
 
   return (
@@ -61,8 +58,7 @@ const BookCard = ({card,loader}) => {
 };
 
 BookCard.propTypes={
-  card: PropTypes.object.isRequired,
-  loader: PropTypes.bool
+  card: PropTypes.object.isRequired
 }
 
 export default BookCard;
