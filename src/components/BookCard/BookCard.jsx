@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const BookCard = ({card}) => {
   const {id,bookName, author, image, category, rating, tags}=card || {};
-  console.log(tags)
+
   return (
     <div>
       <Link to={`/bookDetails/${id}`}>

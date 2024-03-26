@@ -11,7 +11,7 @@ import { FiUsers } from "react-icons/fi";
 import { BiFileBlank } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
-const Read = ({ data }) => {
+const ReadWish = ({ data }) => {
   const {
     id,
     bookName,
@@ -82,8 +82,8 @@ const Read = ({ data }) => {
   );
 };
 
-Read.propTypes = {
+ReadWish.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default Read;
+export default ReadWish;

@@ -1,9 +1,8 @@
 import { Button, Card, CardBody, CardHeader, Typography } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router-dom";
-import { setDataToLocalStorage } from "../../utils/localStorage";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { setDataToLocalStorage, setWishlistToLocalStorage } from "../../utils/localStorage";
+
 
 
 const BookDetails = () => {
@@ -18,11 +17,14 @@ const BookDetails = () => {
 
   const handleRead=()=>{
       setDataToLocalStorage(details);
-      toast.success('You added to read')
+  }
+
+  const handleWishlist=()=>{
+    setWishlistToLocalStorage(details)
   }
   
   const {image,bookName, author, review, totalPages, rating, category, tags, publisher,yearOfPublishing}=details ||{};
-  console.log(tags)
+  
   return (
     <div>
       <Card className="w-full max-w-7xl shadow-none mx-auto min-h-[calc(100vh-450px)] mt-6 flex-row">
@@ -68,10 +70,9 @@ const BookDetails = () => {
           <div className="flex flex-row gap-8"><h2 className="text-[#131313B2] text-sm mr-[72px]">Rating:</h2>   <h2 className="font-bold text-[#131313] text-sm">{rating}</h2></div>
         </Typography>
         
-       <div className="flex flex-row gap-8 mt-4">
+       <div className="flex flex-row gap-4 mt-4">
         <Link> <Button onClick={handleRead} className="flex items-center gap-2 bg-white text-black border border-[#1313134D]">Read</Button></Link>
-        <ToastContainer/>
-        <Link> <Button  className="flex items-center gap-2 bg-[#50B1C9]">Wishlist</Button></Link>
+        <Link> <Button onClick={handleWishlist}  className="flex items-center gap-2 bg-[#50B1C9]">Wishlist</Button></Link>
        </div>
       </CardBody>
     </Card>

@@ -1,10 +1,10 @@
 import { getDataFromLocalStorage } from "../../utils/localStorage";
-import Read from "../Read/Read";
+import Read from "../ReadWish/ReadWish";
 
 
 const ReadBooks = () => {
   const getData=getDataFromLocalStorage()
-  console.log(getData)
+  
   return (
     <div>
       {
