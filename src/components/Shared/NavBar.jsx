@@ -65,7 +65,7 @@ const NavBar = () => {
       <Navbar className="mx-auto max-w-7xl px-0 py-2 shadow-none mt-4">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
-          as="a"
+          
           variant="h6"
           className="mr-4 text-3xl cursor-pointer py-1.5 text-[#131313] font-bold"
         >
