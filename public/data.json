@@ -1,49 +1,49 @@
 [
   {
-    "bookId": 1,
+    "id": 1,
     "bookName": "The Dating Playbook for Men",
     "author": "Andrew Ferebee",
     "image": "https://i.ibb.co/XLmyr1G/card-1.png",
-    "review": "In 'The Dating Playbook for Men', Andrew Ferebee paints a chilling picture of a dystopian society ruled by a totalitarian regime. Set in a future where individuality is suppressed and truth is manipulated, the novel follows the protagonist Winston Smith as he rebels against the oppressive Party led by Big Brother. Orwell's stark portrayal of surveillance, propaganda, and thought control remains relevant in today's world, serving as a stark warning against the dangers of unchecked power. Through vivid imagery and thought-provoking themes, '1984' explores the consequences of sacrificing freedom for security, leaving readers questioning the nature of authority and the importance of preserving human rights.",
-    "totalPages": 328,
-    "rating": 4.5,
-    "category": "Fiction",
-    "tags": ["Dystopian", "Political", "Classic"],
-    "publisher": "Harvill Secker",
-    "yearOfPublishing": 1949
-  },
-  {
-    "bookId": 2,
-    "bookName": "Why Do You Hate Money?",
-    "author": "Joey Percia",
-    "image": "https://i.ibb.co/zPyb32q/card-2.png",
-    "review": "JOEY PERCIA's 'Why Do You Hate Money?' is a timeless masterpiece that confronts issues of racial injustice, morality, and compassion in the American South during the 1930s. Through the eyes of young Scout Finch, the novel delves into the complexities of human nature as her father, lawyer Atticus Finch, defends a black man wrongly accused of assaulting a white woman. Lee's poignant narrative challenges societal norms and prejudices, encouraging readers to confront their own biases and stand up for what is right. With its memorable characters and powerful message, 'To Kill a Mockingbird' continues to resonate with audiences, reminding us of the importance of empathy and understanding in the face of injustice.",
-    "totalPages": 281,
-    "rating": 4.8,
-    "category": "Fiction",
-    "tags": ["Coming of Age", "Southern Gothic"],
-    "publisher": "J. B. Lippincott & Co.",
-    "yearOfPublishing": 1960
-  },
-  {
-    "bookId": 3,
-    "bookName": "The Hate U Give",
-    "author": "Angie Thomas",
-    "image": "https://i.ibb.co/GxdSvcd/card-3.png",
-    "review": "ANGIE THOMAS's 'The Hate U Give' is a timeless classic that captures the essence of the Jazz Age in America. Set in the affluent world of Long Island during the 1920s, the novel follows the enigmatic Jay Gatsby and his pursuit of the elusive Daisy Buchanan. Through themes of love, wealth, and the American Dream, Fitzgerald explores the emptiness and disillusionment that lurk beneath the surface of prosperity. With its lyrical prose and vivid imagery, 'The Great Gatsby' remains a poignant reflection on the fleeting nature of happiness and the consequences of obsession.",
-    "totalPages": 180,
+    "review": "The Dating Playbook for Men by Andrew Ferebee is a comprehensive guide to mastering the art of dating and building meaningful connections with women. Drawing from his own experiences and insights gained from coaching thousands of men, Ferebee provides practical advice and actionable strategies for navigating the complexities of modern dating. From understanding female psychology to developing confidence and charisma, this book covers everything a man needs to know to succeed in the dating game. Ferebee's straightforward approach and emphasis on personal growth make this book not only a valuable resource for improving your dating life but also for becoming the best version of yourself. Whether you're looking for casual flings or a long-term relationship, The Dating Playbook for Men offers valuable wisdom and guidance for men of all ages and backgrounds.",
+    "totalPages": 314,
     "rating": 4.7,
-    "category": "Fiction",
-    "tags": ["Romance", "Social Commentary"],
-    "publisher": "Charles Scribner's Sons",
-    "yearOfPublishing": 1925
+    "category": "Self-Help",
+    "tags": ["Dating", "Relationship", "Development"],
+    "publisher": "CreateSpace Independent Publishing Platform",
+    "yearOfPublishing": 2015
   },
   {
-    "bookId": 4,
+    "id": 2,
+    "bookName": "The Goldfinch",
+    "author": "Donna Tartt",
+    "image": "https://i.ibb.co/kDySs19/card-2.png",
+    "review": "The Goldfinch by Donna Tartt is a sprawling and immersive novel that explores themes of art, fate, and redemption. At the center of the story is Theo Decker, who survives a tragic accident that claims his mother's life and sets him on a tumultuous journey through the underbelly of the art world. Along the way, Theo becomes entangled in a web of deception and crime, all while clinging to a small painting that holds immense sentimental value - The Goldfinch. Tartt's richly drawn characters and evocative prose bring to life a world filled with beauty and darkness, where the choices we make can shape our destinies in unexpected ways. The Goldfinch is a masterfully crafted novel that lingers in the mind long after the final page.",
+    "totalPages": 771,
+    "rating": 4.4,
+    "category": "Fiction",
+    "tags": ["Art", "Coming of Age", "Mystery"],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 2013
+  },
+  {
+    "id": 3,
+    "bookName": "Educated: A Memoir",
+    "author": "Tara Westover",
+    "image": "https://i.ibb.co/gwNzmFz/card-3.png",
+    "review": "Educated: A Memoir is a powerful and inspiring story of resilience, courage, and the pursuit of knowledge against all odds. Tara Westover recounts her remarkable journey from growing up in a strict and abusive household in rural Idaho to eventually earning a PhD from Cambridge University. Despite facing immense challenges and obstacles, including limited access to formal education and familial estrangement, Tara's determination to educate herself and break free from the constraints of her upbringing shines through. Her story is a testament to the transformative power of education and the human spirit's capacity for growth and redemption. Educated is a deeply moving memoir that will stay with you long after you turn the final page.",
+    "totalPages": 352,
+    "rating": 4.8,
+    "category": "Memoir",
+    "tags": ["Biography", "Inspiration", "Self-discovery"],
+    "publisher": "Random House",
+    "yearOfPublishing": 2018
+  },
+  {
+    "id": 4,
     "bookName": "The Silent Patient",
     "author": "Alex Michaelides",
     "image": "https://i.ibb.co/x19vPhC/card-4.png",
-    "review": "The Silent Patient by Alex Michaelides is a psychological thriller that grabs you from the very first page and doesn't let go until the shocking conclusion. The story revolves around Alicia Berenson, a famous painter who seemingly has it all - a loving husband, a beautiful home, and a successful career. However, everything changes when Alicia is found standing over her husband's dead body, holding a gun. From that moment on, she never speaks another word. Enter Theo Faber, a psychotherapist determined to unravel the mystery behind Alicia's silence. As Theo delves deeper into Alicia's past and psyche, he uncovers dark secrets and unexpected twists that keep the reader guessing until the final page. Michaelides skillfully weaves together a complex narrative filled with suspense, intrigue, and psychological depth. The characters are well-developed, each with their own motives and flaws that add layers of complexity to the story. The pacing is relentless, with tension building steadily throughout the book. Every chapter ends with a tantalizing cliffhanger, making it impossible to put the book down. What sets The Silent Patient apart is its jaw-dropping twist ending that will leave you reeling. Just when you think you have it all figured out, Michaelides pulls the rug out from under you, delivering a conclusion that is both shocking and satisfying. The Silent Patient is a must-read for fans of psychological thrillers. It's a gripping tale of love, betrayal, and the darkness that lies within us all.",
+    "review": "The Silent Patient by Alex Michaelides is a psychological thriller that grabs you from the very first page and doesn't let go until the shocking conclusion. The story revolves around Alicia Berenson, a famous painter who seemingly has it all - a loving husband, a beautiful home, and a successful career. However, everything changes when Alicia is found standing over her husband's dead body, holding a gun. From that moment on, she never speaks another word. Enter Theo Faber, a psychotherapist determined to unravel the mystery behind Alicia's silence. As Theo delves deeper into Alicia's past and psyche, he uncovers dark secrets and unexpected twists that keep the reader guessing until the final page. Michaelides skillfully weaves together a complex narrative filled with suspense, intrigue, and psychological depth. The characters are well-developed, each with their own motives and flaws that add layers of complexity to the story. The pacing is relentless, with tension building steadily throughout the book. Every chapter ends with a tantalizing cliffhanger, making it impossible to put the book down. What sets The Silent Patient apart is its jaw-dropping twist ending that will leave you reeling.  ",
     "totalPages": 336,
     "rating": 4.5,
     "category": "Mystery",
@@ -52,37 +52,24 @@
     "yearOfPublishing": 2019
 },
   {
-    "bookId": 5,
-    "bookName": "Annotated Texas Family Code",
-    "author": "J.D. Salinger",
-    "image": "https://i.ibb.co/LSn8rQL/card-5.png",
-    "review": "J.D. Salinger's 'Annotated Texas Family Code' is a seminal work of American literature that captures the angst and alienation of adolescence with unmatched authenticity. Narrated by the cynical yet vulnerable Holden Caulfield, the novel follows his journey through the streets of New York City as he grapples with loss, identity, and the phoniness of the adult world. Salinger's masterful prose and keen insight into the adolescent psyche have made 'The Catcher in the Rye' a cultural touchstone, resonating with readers of all ages for generations. With its enduring relevance and universal themes, this novel continues to leave an indelible mark on literature and popular culture.",
-    "totalPages": 224,
-    "rating": 4.4,
+    "id": 5,
+    "bookName": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "https://i.ibb.co/VVb8fvY/card-5.jpg",
+    "review": "Harper Lee's 'To Kill a Mockingbird' is a timeless masterpiece that confronts issues of racial injustice, morality, and compassion in the American South during the 1930s. Through the eyes of young Scout Finch, the novel delves into the complexities of human nature as her father, lawyer Atticus Finch, defends a black man wrongly accused of assaulting a white woman. Lee's poignant narrative challenges societal norms and prejudices, encouraging readers to confront their own biases and stand up for what is right. With its memorable characters and powerful message, 'To Kill a Mockingbird' continues to resonate with audiences, reminding us of the importance of empathy and understanding in the face of injustice.",
+    "totalPages": 281,
+    "rating": 4.8,
     "category": "Fiction",
-    "tags": ["Coming of Age", "American Classic"],
-    "publisher": "Little, Brown and Company",
-    "yearOfPublishing": 1951
+    "tags": [ "Legal Drama", "Southern Gothic"],
+    "publisher": "J. B. Lippincott & Co.",
+    "yearOfPublishing": 1960
   },
   {
-    "bookId": 6,
-    "bookName": "Loving Jesus More",
-    "author": "J.R.R. Tolkien",
-    "image": "https://i.ibb.co/TMJ1c4d/card-6.png",
-    "review": "J.R.R. Tolkien's 'Loving Jesus More' is a monumental work of fantasy that has captivated readers since its publication. Set in the richly imagined world of Middle-earth, the epic trilogy follows the quest to destroy the One Ring and defeat the dark lord Sauron. Through breathtaking adventure, rich mythology, and unforgettable characters, Tolkien explores themes of heroism, friendship, and the struggle between good and evil. With its intricate world-building and timeless storytelling, 'The Lord of the Rings' has become a cultural phenomenon, inspiring generations of readers and leaving an indelible mark on the fantasy genre.",
-    "totalPages": 1178,
-    "rating": 4.9,
-    "category": "Fantasy",
-    "tags": ["Epic", "Adventure", "High Fantasy"],
-    "publisher": "Allen & Unwin",
-    "yearOfPublishing": 1954
-  },
-  {
-    "bookId": 7,
-    "bookName": "The Lost Art of Good Conversation",
-    "author": "Sakyong Mipham",
-    "image": "https://i.ibb.co/NnCrwrv/card-7.png",
-    "review": "The Lost Art of Good Conversation by SAKYONG MIPHAM is a spellbinding tale of enchantment and wonder that transports readers to a world of magic and mystery. Set in the late 19th century, the novel follows the fierce competition between two young magicians, Celia and Marco, who are bound by a magical challenge orchestrated by their mentors. As their rivalry unfolds within the confines of a magical circus that only appears at night, the lines between reality and illusion blur, and the stakes become increasingly high. Morgenstern's lush prose and vivid imagery create an immersive experience that captivates the imagination and leaves readers spellbound. The Night Circus is a mesmerizing journey into a world where dreams become reality and anything is possible.",
+    "id": 6,
+    "bookName": "The Night Circus",
+    "author": "Erin Morgenstern",
+    "image": "https://i.ibb.co/VBphbQ5/card-6.jpg",
+    "review": "The Night Circus by Erin Morgenstern is a spellbinding tale of enchantment and wonder that transports readers to a world of magic and mystery. Set in the late 19th century, the novel follows the fierce competition between two young magicians, Celia and Marco, who are bound by a magical challenge orchestrated by their mentors. As their rivalry unfolds within the confines of a magical circus that only appears at night, the lines between reality and illusion blur, and the stakes become increasingly high. Morgenstern's lush prose and vivid imagery create an immersive experience that captivates the imagination and leaves readers spellbound. The Night Circus is a mesmerizing journey into a world where dreams become reality and anything is possible.",
     "totalPages": 387,
     "rating": 4.5,
     "category": "Fantasy",
@@ -91,7 +78,20 @@
     "yearOfPublishing": 2011
   },
   {
-    "bookId": 8,
+    "id": 7,
+    "bookName": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "https://i.ibb.co/df8FNSD/card-7.jpg",
+    "review": "F. Scott Fitzgerald's 'The Great Gatsby' is a timeless classic that captures the essence of the Jazz Age in America. Set in the affluent world of Long Island during the 1920s, the novel follows the enigmatic Jay Gatsby and his pursuit of the elusive Daisy Buchanan. Through themes of love, wealth, and the American Dream, Fitzgerald explores the emptiness and disillusionment that lurk beneath the surface of prosperity. With its lyrical prose and vivid imagery, 'The Great Gatsby' remains a poignant reflection on the fleeting nature of happiness and the consequences of obsession.",
+    "totalPages": 180,
+    "rating": 4.7,
+    "category": "Fiction",
+    "tags": [ "Social Commentary", "Roaring Twenties"],
+    "publisher": "Charles Scribner's Sons",
+    "yearOfPublishing": 1925
+  },
+  {
+    "id": 8,
     "bookName": "The Martian",
     "author": "Andy Weir",
     "image": "https://i.ibb.co/BrbrbdQ/card-8.jpg",
@@ -104,7 +104,7 @@
     "yearOfPublishing": 2014
   },
   {
-    "bookId": 9,
+    "id": 9,
     "bookName": "Spin of the Dragon",
     "author": "Kebin J. Anderson",
     "image": "https://i.ibb.co/d0tn9LD/card-9.png",
@@ -117,7 +117,7 @@
     "yearOfPublishing": 2013
   },
   {
-    "bookId": 10,
+    "id": 10,
     "bookName": "Gone Girl",
     "author": "Gillian Flynn",
     "image": "https://i.ibb.co/t3kgH80/caed-10.jpg",
@@ -130,7 +130,7 @@
     "yearOfPublishing": 2012
   },
   {
-    "bookId": 11,
+    "id": 11,
     "bookName": "The Alchemist",
     "author": "Paulo Coelho",
     "image": "https://i.ibb.co/jJxw9mQ/Card-11.jpg",
@@ -143,7 +143,7 @@
     "yearOfPublishing": 1988
   },
   {
-    "bookId": 12,
+    "id": 12,
     "bookName": "The Da Vinci Code",
     "author": "Dan Brown",
     "image": "https://i.ibb.co/X7Qzpnq/card-12.jpg",

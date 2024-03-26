@@ -8,11 +8,14 @@ import {
 import { IoMdStarOutline } from "react-icons/io";
 
 import PropTypes from 'prop-types'
+import { Link } from "react-router-dom";
 
 const BookCard = ({card}) => {
-  const {bookName, author, image, category, rating, tags}=card;
+  const {id,bookName, author, image, category, rating, tags}=card || {};
+  console.log(tags)
   return (
     <div>
+      <Link to={`/bookDetails/${id}`}>
       <Card className="mt-6  w-96 border border-gray-400 cursor-pointer">
       <CardHeader  className=" flex items-center justify-center shadow-none mt-4 mx-auto h-52 w-80 bg-[#13131326]">
         <img
@@ -24,7 +27,7 @@ const BookCard = ({card}) => {
       <CardBody>
         <div className="flex flex-row gap-4 mb-2">
           {
-            tags.map((item,idx)=> <p key={idx} className=" bg-[#23BE0A0D] rounded-2xl p-2 text-[#23BE0A] text-sm">{item}</p>)
+            tags?.map((item,idx)=> <p key={idx} className=" bg-[#23BE0A0D] rounded-2xl p-2 text-[#23BE0A] text-sm">{item}</p>)
           }
         </div>
         <Typography variant="h5"  className="mb-2 text-[#131313] font-semibold text-xl">
@@ -46,7 +49,9 @@ const BookCard = ({card}) => {
         </div>
        </div>
       </CardFooter>
-    </Card>
+      </Card>
+      </Link>
+      
     </div>
   );
 };
