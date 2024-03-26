@@ -62,13 +62,13 @@ const NavBar = () => {
   }, []);
   return (
     <div>
-      <Navbar className="mx-auto max-w-7xl px-4 py-2 shadow-none mt-4">
+      <Navbar className="mx-auto max-w-7xl px-0 py-2 shadow-none mt-4">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
           variant="h6"
-          className="mr-4 text-2xl cursor-pointer py-1.5 lg:ml-2"
+          className="mr-4 text-3xl cursor-pointer py-1.5 text-[#131313] font-bold"
         >
           Book Cave
         </Typography>
@@ -77,7 +77,7 @@ const NavBar = () => {
         </div>
         <div className="hidden gap-2 lg:flex">
           <Button  size="md"  className="bg-[#23BE0A] hover:bg-[#23BE0A]">
-            Log In
+            Sign In
           </Button>
           <Button  size="md" className="bg-[#59C6D2] hover:bg-[#59C6D2]">
             Sign Up
