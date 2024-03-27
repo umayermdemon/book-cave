@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import PropTypes from "prop-types";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Cell, Tooltip, Legend } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Cell, Tooltip, Legend, ResponsiveContainer } from "recharts";
 
 const colors = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "red", "pink"];
 
@@ -24,7 +24,7 @@ const ReadChart = ({ chartData }) => {
   const CustomTooltip = ({ active, payload, label }) => {
     if (active && payload && payload.length) {
       return (
-        <div className="custom-tooltip font-bold font-serif bg-gray-100 p-8 rounded-xl">
+        <div className="custom-tooltip font-bold font-serif bg-gray-100 p-4 lg:p-8 rounded-xl">
           <p className="label text-xl text-pink-900">{`Book Name: ${label}`}</p>
           <p className="label text-lg text-blue-900">{`Pages: ${payload[0].value}`}</p>
         </div>
@@ -35,10 +35,10 @@ const ReadChart = ({ chartData }) => {
   };
 
   return (
-    <div className="mt-16">
+    <div style={{ width: '100%', height: 500 }} className="mt-4 lg:mt-16">
+      <ResponsiveContainer>
       <BarChart
-        width={1350}
-        height={600}
+       
         data={chartData}
         margin={{ top: 20, right: 30, left: 5, bottom: 5 }}
       >
@@ -58,6 +58,7 @@ const ReadChart = ({ chartData }) => {
           ))}
         </Bar>
       </BarChart>
+      </ResponsiveContainer>
     </div>
   );
 };

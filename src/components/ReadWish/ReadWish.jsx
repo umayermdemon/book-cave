@@ -26,18 +26,18 @@ const ReadWish = ({ data }) => {
   } = data || {};
   return (
     <div>
-      <Card className="mt-6  w-full flex-row border border-gray-400 cursor-pointer">
-        <CardHeader className=" flex items-center justify-center shadow-none m-4   h-52 w-60 bg-[#13131326]">
+      <Card className="mt-6 mx-2 lg:mx-0 w-[96%] lg:w-full lg:flex-row border border-gray-400 cursor-pointer">
+        <CardHeader className=" flex items-center justify-center shadow-none m-4  h-52 w-80 lg:w-60 bg-[#13131326]">
           <img src={image} alt="card-image" className="w-28" />
         </CardHeader>
         <CardBody>
-          <Typography variant="h4" color="blue-gray" className="mb-2">
+          <Typography  color="blue-gray" className="mb-2 text-xl lg:text-2xl font-semibold">
             {bookName}
           </Typography>
-          <Typography variant="h6" color="gray" className="mb-4">
+          <Typography  color="gray" className="mb-4 text-sm lg:text-base font-semibold">
             By: {author}
           </Typography>
-          <div className="flex flex-row gap-8 items-center">
+          <div className="flex flex-col lg:flex-row gap-2 lg:gap-8 items-start lg:items-center">
             <div className="flex flex-row gap-4 items-center">
               <p className="font-bold text-[#131313]">Tag</p>
               <div className="flex flex-row gap-4 items-center">
@@ -71,9 +71,9 @@ const ReadWish = ({ data }) => {
           <hr />
 
           <div className="flex flex-row gap-4 items-center mt-4">
-          <p className="p-2 rounded-full text-xs bg-[#328EFF26] text-[#328EFF]">Category: {category}</p>
-          <p className="p-3 rounded-full text-sm font-sans bg-[#FFAC3321] text-[#FFAC33]">Rating: {rating}</p>
-          <Link to={`/bookDetails/${id}`}><Button  className="bg-[#23BE0A] text-white">View Details</Button></Link>
+          <p className="p-2 rounded-full text-xs bg-[#328EFF26] text-[#328EFF] text-center">Category: {category}</p>
+          <p className="p-2 lg:p-3 rounded-full text-xs   text-center font-sans bg-[#FFAC3321] text-[#FFAC33]">Rating: {rating}</p>
+          <Link to={`/bookDetails/${id}`}><Button  className="bg-[#23BE0A] text-xs lg:text-sm text-white">View Details</Button></Link>
           
           </div>
         </CardBody>

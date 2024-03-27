@@ -17,8 +17,8 @@ const ListedBooks = () => {
 
   return (
     <div>
-      <div className="bg-[#1313130D] max-w-7xl mx-auto rounded-xl">
-        <h1 className="text-4xl font-bold p-8 text-center">Books</h1>
+      <div className="bg-[#1313130D] w-[96%] lg:max-w-7xl mx-2 lg:mx-auto rounded-xl">
+        <h1 className="text-3xl lg:text-4xl font-bold p-8 text-center">Books</h1>
       </div>
 
       <div className="flex justify-center items-center max-w-7xl mx-auto my-6">

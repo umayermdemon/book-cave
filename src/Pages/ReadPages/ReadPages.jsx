@@ -22,7 +22,7 @@ export default function App() {
 
 
   return (
-    <div className="max-w-7xl mx-auto ">
+    <div className="w-full lg:max-w-7xl mx-auto ">
       <div className="flex lg:flex-row flex-col">
         <ReadChart chartData={chartData} />
       </div>
