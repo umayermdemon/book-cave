@@ -16,35 +16,32 @@ import { Link, NavLink } from "react-router-dom";
  
 function NavList() {
   return (
-    <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1">
+    <List className="mt-4 mb-6 gap-3 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1">
       <Typography
-        as="a"
         variant="small"
         color="blue-gray"
         className="font-medium"
       >
       <NavLink to={'/'} 
-      className={({isActive})=> isActive? 'text-[#23BE0A] border border-[#23BE0A] p-3 rounded-xl font-medium text-base pr-4':"flex text-base items-center gap-2  pr-4"}
+      className={({isActive})=> isActive? 'text-[#23BE0A] border border-[#23BE0A] p-2 lg:p-3 rounded-xl font-medium text-sm lg:text-base pr-2 lg:pr-4':"flex text-sm lg:text-base items-center gap-2  pr-2 lg:pr-4"}
       >Home</NavLink>
       </Typography>
       <Typography
-        as="a"
         variant="small"
         color="blue-gray"
         className="font-medium"
       >
       <NavLink to={'/listedBooks'} 
-      className={({isActive})=> isActive? 'text-[#23BE0A] border border-[#23BE0A] p-3 rounded-xl font-medium text-base pr-4':"flex text-base items-center gap-2 pr-4"}
+      className={({isActive})=> isActive? 'text-[#23BE0A] border border-[#23BE0A] p-2 lg:p-3 rounded-xl font-medium text-sm lg:text-base pr-2 lg:pr-4':"flex text-sm lg:text-base items-center gap-2  pr-2 lg:pr-4"}
       >Listed Books</NavLink>
       </Typography>
       <Typography
-        as="a"
         variant="small"
         color="blue-gray"
         className="font-medium"
       >
         <NavLink to={'/readPages'} 
-      className={({isActive})=> isActive? 'text-[#23BE0A] border border-[#23BE0A] p-3 rounded-xl font-medium text-base pr-4':"flex text-base items-center gap-2  pr-4"}
+      className={({isActive})=> isActive? 'text-[#23BE0A] border border-[#23BE0A] p-2 lg:p-3 rounded-xl font-medium text-sm lg:text-base pr-2 lg:pr-4':"flex text-sm lg:text-base items-center gap-2  pr-2 lg:pr-4"}
       > Pages to Read</NavLink>
       </Typography>
     </List>
@@ -62,7 +59,7 @@ const NavBar = () => {
   }, []);
   return (
     <div>
-      <Navbar className="mx-auto max-w-7xl px-0 py-2 shadow-none mt-4">
+      <Navbar className="mx-2 lg:mx-auto w-[96%] lg:max-w-7xl px-0 py-2 shadow-none mt-4">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           
@@ -99,11 +96,11 @@ const NavBar = () => {
       <Collapse open={openNav}>
         <NavList />
         <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
-          <Button variant="outlined" size="sm" color="blue-gray" fullWidth>
-            Log In
+          <Button  size="sm" color="blue-gray" fullWidth className="bg-[#23BE0A] hover:bg-[#23BE0A]">
+          Sign In
           </Button>
-          <Button variant="gradient" size="sm" fullWidth>
-            Sign In
+          <Button  size="sm" fullWidth className="bg-[#59C6D2] hover:bg-[#59C6D2]">
+          Sign Up
           </Button>
         </div>
       </Collapse>

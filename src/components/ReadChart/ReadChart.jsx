@@ -27,7 +27,6 @@ const ReadChart = ({ chartData }) => {
         <div className="custom-tooltip font-bold font-serif bg-gray-100 p-8 rounded-xl">
           <p className="label text-xl text-pink-900">{`Book Name: ${label}`}</p>
           <p className="label text-lg text-blue-900">{`Pages: ${payload[0].value}`}</p>
-          
         </div>
       );
     }

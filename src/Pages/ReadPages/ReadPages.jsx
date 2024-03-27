@@ -15,7 +15,8 @@ export default function App() {
 
   const chartData = books.map((book) => ({
     name: book.bookName, 
-    pages: book.totalPages, 
+    pages: book.totalPages,
+   
   }));
 
 

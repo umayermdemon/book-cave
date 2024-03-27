@@ -17,7 +17,7 @@ const BookCard = ({card}) => {
   return (
     <div>
       <Link to={`/bookDetails/${id}`}>
-      <Card className="mt-6  w-96 border border-gray-400 cursor-pointer">
+      <Card className="mt-2 lg:mt-6 w-[98%] lg:w-96 border border-gray-400 cursor-pointer">
       <CardHeader  className=" flex items-center justify-center shadow-none mt-4 mx-auto h-52 w-80 bg-[#13131326]">
         <img
           src={image}

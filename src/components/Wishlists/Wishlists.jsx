@@ -1,5 +1,6 @@
 import { getWishlistFromLocalStorage } from "../../utils/localStorage";
-import Read from "../ReadWish/ReadWish";
+import ReadWish from "../ReadWish/ReadWish";
+
 
 
 const Wishlists = () => {
@@ -8,7 +9,7 @@ const Wishlists = () => {
   return (
     <div>
       {
-         getData?.map((data, idx)=> <Read key={idx} data={data}></Read>)
+         getData?.map((data, idx)=> <ReadWish key={idx} data={data}></ReadWish>)
       }
     </div>
   );

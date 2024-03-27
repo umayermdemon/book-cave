@@ -11,7 +11,7 @@ const BookCards = () => {
   }
 
   return (
-    <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+    <div className="grid  lg:grid-cols-3 gap-4 lg:gap-8 mt-4 lg:mt-12 mx-2">
       {
         bookCards.map((card,idx)=><BookCard key={idx} loader={loader}  card={card}></BookCard>)
       }

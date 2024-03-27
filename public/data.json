@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "bookName": "The Dating Playbook for Men",
-    "author": "Andrew Ferebee",
-    "image": "https://i.ibb.co/XLmyr1G/card-1.png",
-    "review": "The Dating Playbook for Men by Andrew Ferebee is a comprehensive guide to mastering the art of dating and building meaningful connections with women. Drawing from his own experiences and insights gained from coaching thousands of men, Ferebee provides practical advice and actionable strategies for navigating the complexities of modern dating. From understanding female psychology to developing confidence and charisma, this book covers everything a man needs to know to succeed in the dating game. Ferebee's straightforward approach and emphasis on personal growth make this book not only a valuable resource for improving your dating life but also for becoming the best version of yourself. Whether you're looking for casual flings or a long-term relationship, The Dating Playbook for Men offers valuable wisdom and guidance for men of all ages and backgrounds.",
-    "totalPages": 314,
-    "rating": 4.7,
-    "category": "Self-Help",
-    "tags": ["Dating", "Relationship", "Development"],
-    "publisher": "CreateSpace Independent Publishing Platform",
-    "yearOfPublishing": 2015
+    "bookName": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "image": "https://i.ibb.co/x19vPhC/card-4.png",
+    "review": "The Silent Patient by Alex Michaelides is a psychological thriller that grabs you from the very first page and doesn't let go until the shocking conclusion. The story revolves around Alicia Berenson, a famous painter who seemingly has it all - a loving husband, a beautiful home, and a successful career. However, everything changes when Alicia is found standing over her husband's dead body, holding a gun. From that moment on, she never speaks another word. Enter Theo Faber, a psychotherapist determined to unravel the mystery behind Alicia's silence. As Theo delves deeper into Alicia's past and psyche, he uncovers dark secrets and unexpected twists that keep the reader guessing until the final page. Michaelides skillfully weaves together a complex narrative filled with suspense, intrigue, and psychological depth. The characters are well-developed, each with their own motives and flaws that add layers of complexity to the story. The pacing is relentless, with tension building steadily throughout the book. Every chapter ends with a tantalizing cliffhanger, making it impossible to put the book down. What sets The Silent Patient apart is its jaw-dropping twist ending that will leave you reeling.  ",
+    "totalPages": 336,
+    "rating": 4.5,
+    "category": "Mystery",
+    "tags": ["Suspense", "Psychological"],
+    "publisher": "Celadon Books",
+    "yearOfPublishing": 2019
   },
   {
     "id": 2,
@@ -40,16 +40,16 @@
   },
   {
     "id": 4,
-    "bookName": "The Silent Patient",
-    "author": "Alex Michaelides",
-    "image": "https://i.ibb.co/x19vPhC/card-4.png",
-    "review": "The Silent Patient by Alex Michaelides is a psychological thriller that grabs you from the very first page and doesn't let go until the shocking conclusion. The story revolves around Alicia Berenson, a famous painter who seemingly has it all - a loving husband, a beautiful home, and a successful career. However, everything changes when Alicia is found standing over her husband's dead body, holding a gun. From that moment on, she never speaks another word. Enter Theo Faber, a psychotherapist determined to unravel the mystery behind Alicia's silence. As Theo delves deeper into Alicia's past and psyche, he uncovers dark secrets and unexpected twists that keep the reader guessing until the final page. Michaelides skillfully weaves together a complex narrative filled with suspense, intrigue, and psychological depth. The characters are well-developed, each with their own motives and flaws that add layers of complexity to the story. The pacing is relentless, with tension building steadily throughout the book. Every chapter ends with a tantalizing cliffhanger, making it impossible to put the book down. What sets The Silent Patient apart is its jaw-dropping twist ending that will leave you reeling.  ",
-    "totalPages": 336,
-    "rating": 4.5,
-    "category": "Mystery",
-    "tags": ["Suspense", "Psychological"],
-    "publisher": "Celadon Books",
-    "yearOfPublishing": 2019
+    "bookName": "The Dating Playbook for Men",
+    "author": "Andrew Ferebee",
+    "image": "https://i.ibb.co/XLmyr1G/card-1.png",
+    "review": "The Dating Playbook for Men by Andrew Ferebee is a comprehensive guide to mastering the art of dating and building meaningful connections with women. Drawing from his own experiences and insights gained from coaching thousands of men, Ferebee provides practical advice and actionable strategies for navigating the complexities of modern dating. From understanding female psychology to developing confidence and charisma, this book covers everything a man needs to know to succeed in the dating game. Ferebee's straightforward approach and emphasis on personal growth make this book not only a valuable resource for improving your dating life but also for becoming the best version of yourself. Whether you're looking for casual flings or a long-term relationship, The Dating Playbook for Men offers valuable wisdom and guidance for men of all ages and backgrounds.",
+    "totalPages": 314,
+    "rating": 4.7,
+    "category": "Self-Help",
+    "tags": ["Dating", "Relationship", "Development"],
+    "publisher": "CreateSpace Independent Publishing Platform",
+    "yearOfPublishing": 2015
 },
   {
     "id": 5,

@@ -27,22 +27,22 @@ const BookDetails = () => {
   
   return (
     <div>
-      <Card className="w-full max-w-7xl shadow-none mx-auto min-h-[calc(100vh-450px)] mt-6 flex-row">
+      <Card className="w-full max-w-7xl shadow-none mx-auto min-h-[calc(100vh-450px)] mt-6 lg:flex-row">
       <CardHeader
         shadow={false}
         floated={false}
-        className="my-4 w-2/5 shrink-0 rounded-xl bg-[#1313130D] flex items-center justify-center"
+        className="my-4  w-[90%] lg:w-2/5 shrink-0 rounded-xl bg-[#1313130D] flex items-center justify-center"
       >
         <img
           src={image}
-          className="h-[90%] w-full p-8"
+          className="h-96 lg:h-[90%] w-full p-8"
         />
       </CardHeader>
       <CardBody>
-        <Typography variant="h6" color="gray" className="mb-4 uppercase text-[#131313] text-4xl">
+        <Typography  color="gray" className="mb-4 uppercase text-[#131313] text-xl lg:text-4xl">
           {bookName}
         </Typography>
-        <Typography variant="h6"  className="mb-2 text-[#131313CC] ">
+        <Typography   className="mb-2 text-[#131313CC] text-sm lg:text-xl">
           By: {author}
         </Typography>
         <hr />
@@ -50,14 +50,14 @@ const BookDetails = () => {
          {category}
         </Typography>
           <hr />
-        <Typography color="gray" className="mb-6 font-normal">
+        <Typography color="gray" className="mb-6 font-normal text-base text-justify">
          <span> Review:</span> {review}
         </Typography>
-        <div className="mb-4 flex flex-row gap-8 items-center" >
+        <div className="mb-4 flex flex-row gap-4 lg:gap-8 items-center" >
           <p>Tags:</p>
           <div className="flex flex-row gap-4 items-center">
           {
-            tags?.map((tag,idx)=><p key={idx} className=" bg-[#23BE0A0D] rounded-2xl p-2 text-[#23BE0A] text-sm">{tag}</p>)
+            tags?.map((tag,idx)=><p key={idx} className=" bg-[#23BE0A0D] rounded-2xl p-2 text-[#23BE0A] text-xs lg:text-sm">{tag}</p>)
           }
           </div>
         </div>
