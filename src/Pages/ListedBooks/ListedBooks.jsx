@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import ReadBooks from "../../components/ReadBooks/ReadBooks";
@@ -11,15 +11,10 @@ import {
   MenuList,
 } from "@material-tailwind/react";
 import { IoIosArrowDown } from "react-icons/io";
-import { getDataFromLocalStorage } from "../../utils/localStorage";
 
 const ListedBooks = () => {
   const [tabIndex, setTabIndex] = useState(0);
-  const getData=getDataFromLocalStorage();
-  const [displayBooks, setDisplayBooks]=useState([])
-  useEffect(()=>{
-    setDisplayBooks(getData)
-  },[getData])
+
 
   return (
     <div>
@@ -52,7 +47,7 @@ const ListedBooks = () => {
             <Tab>Wishlist Books</Tab>
           </TabList>
           <TabPanel>
-            <ReadBooks displayBooks={displayBooks} />
+            <ReadBooks />
           </TabPanel>
           <TabPanel>
             <Wishlists />
