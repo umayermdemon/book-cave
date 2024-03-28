@@ -1,18 +1,22 @@
-import { getDataFromLocalStorage } from "../../utils/localStorage";
+
 import ReadWish from "../ReadWish/ReadWish";
 
+import PropTypes from 'prop-types'
 
 
-const ReadBooks = () => {
-  const getData=getDataFromLocalStorage()
+const ReadBooks = ({displayBooks}) => {
+  
   
   return (
     <div>
       {
-        getData?.map((data, idx)=> <ReadWish key={idx} data={data}></ReadWish>)
+        displayBooks?.map((data, idx)=> <ReadWish key={idx} data={data}></ReadWish>)
       }
     </div>
   );
 };
 
+ReadBooks.propTypes={
+  displayBooks:PropTypes.array.isRequired,
+}
 export default ReadBooks;
