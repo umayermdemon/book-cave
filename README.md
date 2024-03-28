@@ -1,6 +1,6 @@
 
 # Book Cave
-
+![photo](https://i.ibb.co/RPDqHBg/Screenshot-2024-03-27-174156.png)
 
 "Explore the hidden depths of literature at Cave Books. Uncover treasures within our virtual caverns, where stories come alive. From timeless classics to thrilling adventures, embark on a journey through the pages. Dive into the depths of imagination with Cave Books – your gateway to endless discovery."
 
@@ -8,7 +8,7 @@
 ## 🔗 Live Links
 ### Click here for the live link: https://book-cave-a8.netlify.app/
 ## 🔗 Private Repo Link
-### Click here for the private repo link: https://github.com/programming-hero-web-course-4/b9a8-book-vibe-umayermdemon/commits/main/
+### Click here for the private repo link: https://github.com/programming-hero-web-course-4/b9a8-book-vibe-umayermdemon/
 
 
 ##  Features and Characteristics
