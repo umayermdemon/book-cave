@@ -7,8 +7,6 @@
 
 ## 🔗 Live Links
 ### Click here for the live link: https://book-cave-a8.netlify.app/
-## 🔗 Private Repo Link
-### Click here for the private repo link: https://github.com/programming-hero-web-course-4/b9a8-book-vibe-umayermdemon/
 
 
 ##  Features and Characteristics
