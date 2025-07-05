@@ -10,10 +10,10 @@ import { IoMdStarOutline } from "react-icons/io";
 import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
 
+
 const BookCard = ({card}) => {
   
   const {id,bookName, author, image, category, rating, tags}=card || {};
-
   return (
     <div>
       <Link to={`/bookDetails/${id}`}>
@@ -58,7 +58,8 @@ const BookCard = ({card}) => {
 };
 
 BookCard.propTypes={
-  card: PropTypes.object.isRequired
+  card: PropTypes.object.isRequired,
+
 }
 
 export default BookCard;

@@ -2,6 +2,7 @@ import { Button, Card, CardBody, CardHeader, Typography } from "@material-tailwi
 import { useEffect, useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router-dom";
 import { setDataToLocalStorage, setWishlistToLocalStorage } from "../../utils/localStorage";
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -27,6 +28,9 @@ const BookDetails = () => {
   
   return (
     <div>
+       <Helmet>
+        <title>Book Cave | Book Details {id}</title>
+      </Helmet>
       <Card className="w-full max-w-7xl shadow-none mx-auto min-h-[calc(100vh-450px)] mt-6 lg:flex-row">
       <CardHeader
         shadow={false}

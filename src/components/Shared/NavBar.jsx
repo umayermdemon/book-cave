@@ -44,6 +44,7 @@ function NavList() {
       className={({isActive})=> isActive? 'text-[#23BE0A] border border-[#23BE0A] p-2 lg:p-3 rounded-xl font-medium text-sm lg:text-base pr-2 lg:pr-4':"flex text-sm lg:text-base items-center gap-2  pr-2 lg:pr-4"}
       > Pages to Read</NavLink>
       </Typography>
+     
     </List>
   );
 }

@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const useFetchData = () => {
   const [bookCards, setBookCards]=useState([]);
-  const [loader, setLoader]=useState(true)
+  const [loader, setLoader]=useState(true);
 
   useEffect(()=>{
     const fetchData= async()=>{
